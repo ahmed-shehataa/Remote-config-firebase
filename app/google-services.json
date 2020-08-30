@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "840718689383",
+    "firebase_url": "https://remote-config-17564.firebaseio.com",
+    "project_id": "remote-config-17564",
+    "storage_bucket": "remote-config-17564.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:840718689383:android:5c1e48fa674d46b3d960c2",
+        "android_client_info": {
+          "package_name": "com.ashehata.remote_config"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "840718689383-qe3oijemnvm5kephfup3oc01vfoujtah.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-HbvHSBuHhm9Tij0rH7fIXJ8bibWZYzo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "840718689383-qe3oijemnvm5kephfup3oc01vfoujtah.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
