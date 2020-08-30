@@ -6,4 +6,6 @@ A simple app to use remote config feature from Firebase to control the app remot
 </p>
 
 ---
-**Resources :**
+**Resources :**  
+[Doc](https://firebase.google.com/docs/remote-config/use-config-android?hl=en#kotlin+ktx_1)  
+[Mindorks](https://blog.mindorks.com/getting-started-with-firebase-remote-config-in-android)
