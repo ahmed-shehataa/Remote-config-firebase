@@ -1,13 +1,28 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 buildscript {
-    ext.kotlin_version = "1.4.0"
+    ext.versions = [
+            kotlin_version: '1.4.0',
+            moshi         : '1.9.3'
+            // add more here but use comma before it as array
+    ]
+
+    ext.deps = [
+            app  : [
+                    versionCode: 1,
+                    versionName: '1.0'
+            ],
+            moshi: [
+                    moshiKotlin: "com.squareup.moshi:moshi:${versions.moshi}"
+            ]
+    ]
+
     repositories {
         google()
         jcenter()
     }
     dependencies {
         classpath "com.android.tools.build:gradle:4.0.1"
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:${versions.kotlin_version}"
         classpath 'com.google.gms:google-services:4.3.3'
 
         // NOTE: Do not place your application dependencies here; they belong
